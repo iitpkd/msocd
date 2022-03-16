@@ -1,0 +1,19 @@
+title: M.SoCD at IIT Palakkad
+email: ""
+description: >- # this means to ignore newlines until "baseurl:"
+ Website of M.SoCD at IIT Palakkad
+
+# Build settings
+plugins:
+
+# A list of the pages to display in the navigation bar
+header_pages:
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - _site

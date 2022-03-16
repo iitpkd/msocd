@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+{%- include header.html -%}
+
+<style>
+  .homeimage {
+    background-image: url("{{ "/assets/images/noimage.jpg" | relative_url }}");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+  }
+</style>
+
+<body>
+  {%- include navbar.html -%}
+    <div class="container-fluid homeimage h-100">
+    <div class="row h-100" style="margin-top:-100px;">
+      <div class="col-12">
+        <div class="text-center m-0 vh-100 d-flex flex-column justify-content-center text-dark">
+          <h1 class="display-4">M. Tech. in System-on-Chip (SoC) Design</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+<script>
+  $(".nav li").removeClass("active");
+  $("#homeNav").addClass("active");
+</script>
+{%- include footer.html -%}
+
+</html>
